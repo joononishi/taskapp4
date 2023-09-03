@@ -15,6 +15,7 @@
 		C86E3C8C2AA1A42B00E97C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86E3C8A2AA1A42B00E97C7F /* Main.storyboard */; };
 		C86E3C8E2AA1A42D00E97C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86E3C8D2AA1A42D00E97C7F /* Assets.xcassets */; };
 		C86E3C912AA1A42D00E97C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86E3C8F2AA1A42D00E97C7F /* LaunchScreen.storyboard */; };
+		C8D45D4A2AA1C62F000E0FCF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D45D492AA1C62F000E0FCF /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C86E3C8D2AA1A42D00E97C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C86E3C902AA1A42D00E97C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C86E3C922AA1A42D00E97C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D45D492AA1C62F000E0FCF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E6B156878C8FAC50B7EA3CE8 /* Pods-taskapp4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp4.release.xcconfig"; path = "Target Support Files/Pods-taskapp4/Pods-taskapp4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +52,6 @@
 				36FBD20E6E900AEAB3EF926F /* Pods-taskapp4.debug.xcconfig */,
 				E6B156878C8FAC50B7EA3CE8 /* Pods-taskapp4.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,6 +76,7 @@
 		C86E3C832AA1A42B00E97C7F /* taskapp4 */ = {
 			isa = PBXGroup;
 			children = (
+				C8D45D492AA1C62F000E0FCF /* Task.swift */,
 				C86E3C842AA1A42B00E97C7F /* AppDelegate.swift */,
 				C86E3C862AA1A42B00E97C7F /* SceneDelegate.swift */,
 				C86E3C882AA1A42B00E97C7F /* ViewController.swift */,
@@ -212,6 +214,7 @@
 			files = (
 				C84887D72AA1A6C0003963AE /* InputViewController.swift in Sources */,
 				C86E3C892AA1A42B00E97C7F /* ViewController.swift in Sources */,
+				C8D45D4A2AA1C62F000E0FCF /* Task.swift in Sources */,
 				C86E3C852AA1A42B00E97C7F /* AppDelegate.swift in Sources */,
 				C86E3C872AA1A42B00E97C7F /* SceneDelegate.swift in Sources */,
 			);
